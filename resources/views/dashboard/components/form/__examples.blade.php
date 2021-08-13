@@ -1,0 +1,6 @@
+@include('dashboard.components.form._text', (['name' => 'name']))
+@include('dashboard.components.form._number', (['name' => 'count']))
+@include('dashboard.components.form._textarea', (['name' => 'content', 'editor' => true, 'rows' => 5]))
+@include('dashboard.components.form._select', (['name' => 'type', 'data' => ['active', 'inactive'], 'selected' => 0, 'select_2' => true, 'multiple' => false]))
+@include('dashboard.components.form._radio', (['name' => 'is_checked', 'text' => ['Yes', 'No'], 'values' => [1, 0], 'selected' => 1]))
+@include('dashboard.components.form._checkbox', (['name' => 'status', 'checked' => true, 'value' => 'active', 'text' => ['Inactive', 'Active']]))

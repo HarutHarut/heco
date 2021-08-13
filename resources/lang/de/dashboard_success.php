@@ -1,0 +1,27 @@
+<?php
+
+return array (
+  'Bike deleted!' => 'Bike wurde gelöscht',
+  'article_created' => 'Artikel wurde erstellt',
+  'article_deleted' => 'Artikel wurde gelöscht',
+  'article_updated' => 'Artikel wurde aktualisiert',
+  'bike_created' => 'Bike wurde erstellt',
+  'bike_updated' => 'Bike wurde aktualisiert',
+  'brand_created' => 'Brand wurde erstellt',
+  'brand_deleted' => 'Brand wurde gelöscht',
+  'brand_updated' => 'Brand wurde aktualisiert',
+  'category_deleted' => 'Kategorie wurde gelöscht',
+  'category_updated' => 'Kategorie wurde aktualisiert',
+  'country_created' => 'Land wurde hinzugefügt',
+  'country_deleted' => 'Land wurde gelöscht',
+  'country_updated' => 'Land wurde aktualisiert',
+  'detail_deleted' => 'Details wurden gelöscht',
+  'dike_updated' => 'Bike wurde aktualisiert',
+  'model_created' => 'Model wurde erstellt',
+  'model_deleted' => 'Model wurde gelöscht',
+  'model_updated' => 'Model wurde aktualisiert',
+  'password_updated' => 'Passwort wurde aktualisiert',
+  'setting_deleted' => 'Einstellungen wurden gelöscht',
+  'setting_updated' => 'Einstellungen wurden aktualisiert',
+  'bike_rejected' => 'ccccccccccccc',
+);

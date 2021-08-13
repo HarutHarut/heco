@@ -1,0 +1,27 @@
+<?php
+
+return array (
+  'article_created' => 'Article is created !',
+  'article_updated' => 'Article is updated',
+  'article_deleted' => 'Article is deleted',
+  'bike_created' => 'bike is created',
+  'bike_updated' => 'bike is updated',
+  'Bike deleted!' => 'Bike deleted!',
+  'brand_created' => 'brand is created',
+  'brand_updated' => 'brand is updated',
+  'brand_deleted' => 'brand is deleted',
+  'category_updated' => 'Category is updated',
+  'category_deleted' => 'Category is deleted',
+  'country_created' => 'Country is created',
+  'country_updated' => 'Country is updated',
+  'country_deleted' => 'Country is deleted',
+  'dike_updated' => 'details are deleted',
+  'detail_deleted' => 'detail is deleted',
+  'model_created' => 'model is created',
+  'model_updated' => 'model is updated',
+  'model_deleted' => 'model is deleted',
+  'setting_updated' => 'setting is updated',
+  'setting_deleted' => 'Setting is deleted',
+  'password_updated' => 'password is updated',
+  'bike_rejected' => 'vvvvvvvvvv',
+);

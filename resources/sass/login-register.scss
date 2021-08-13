@@ -1,0 +1,115 @@
+
+.login-modal{
+
+    .hystmodal__window{
+        width: 100%;
+
+        @media (min-width: 768px) {
+            width: 645px;
+        }
+    }
+    .text-in-line{
+        margin: 25px auto;
+        width: 140px;
+
+        @media (max-width: 767px) {
+            margin: 20px auto;
+        }
+    }
+    .form-group{
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .invalid-feedback{
+        position: absolute;
+        left: 20px;
+        bottom: -20px;
+        font-size: 13px;
+    }
+    form{
+        max-width: 530px;
+        margin: 0 auto;
+
+        h2{
+            font-size: 30px;
+            margin-bottom: 20px;
+
+            @media (max-width: 767px) {
+                font-size: 26px;
+            }
+        }
+        .btn_green{
+            margin-top: 20px;
+        }
+    }
+}
+
+.remember-block{
+
+    .custom-checkbox{
+        margin-bottom: 14px;
+        margin-right: 10px;
+    }
+}
+.login-other{
+    justify-content: center;
+
+    a{
+        margin: 0 4px 4px;
+        border-radius: 25px;
+        padding: 11px 24px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        transition: all .3s;
+
+        @media (max-width: 767px) {
+            font-size: 13px;
+            margin: 0 5px 4px;
+            padding: 7px 10px;
+        }
+        img{
+            margin-right: 10px;
+
+            @media (max-width: 767px){
+                margin-right: 7px;
+            }
+        }
+    }
+}
+.btn-facebook{
+    background-color: #507cc0;
+    color: #fff;
+    border: solid 1px transparent;
+
+    &:hover{
+        background-color: #466aa2;
+        color: #fff;
+    }
+}
+.btn-gmail{
+    background-color: #eceff1;
+    color: #000000;
+    border: solid 1px transparent;
+
+    &:hover{
+        color: #000000;
+        background-color: #d2d2d2;
+    }
+}
+.btn-apple{
+    background-color: #ffffff;
+    color: #000000;
+    border: solid 1px #e2e5e5;
+
+    &:hover{
+        color: #000000;
+        background-color: #eceff1;
+    }
+}
+
+.login-link{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 10px;
+}

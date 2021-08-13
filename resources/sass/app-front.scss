@@ -1,0 +1,33 @@
+
+@import 'variable';
+@import 'reset';
+@import 'utilites';
+@import 'nav-footer';
+@import 'intlTelInput.min';
+@import 'hystmodal';
+@import 'login-register';
+
+.page-wraper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 73px;
+
+    @media (max-width: 991px) {
+        padding-top: 52px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 56px;
+    }
+}
+body::-webkit-scrollbar{
+    background-color: #ffffff;
+    width: 17px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #d2d2d2;
+
+    &:hover{
+        background-color: #a0a0a0;
+    }
+}
